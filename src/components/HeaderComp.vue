@@ -1,6 +1,8 @@
 <template>
   <div>
-   
+    <dir>
+      <img src="../assets/img/dc-logo.png" alt="">
+    </dir>
   </div>
 </template>
 
