@@ -25,5 +25,7 @@ export default {
 <style lang="scss">
 #app {
 
+
+
 }
 </style>

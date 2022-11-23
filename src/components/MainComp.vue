@@ -34,7 +34,7 @@
 }
 .containerMainTop{
     width: 100%;
-    height: 150px;
+    height: 100px;
     
     background-color: rgba(28, 28, 28, 1);
     
@@ -46,7 +46,7 @@ h3{
 
 .containerMainBottom{
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     background-color: rgba(2, 130, 249, 1);
     justify-content: center;
@@ -55,13 +55,13 @@ h3{
 
 
 ul{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li{
