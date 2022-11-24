@@ -135,6 +135,7 @@ import CopertineCard from './CopertineCard.vue'
 .jumbo{
     background-image: url(../assets/img/jumbotron.jpg);
     background-size: cover;
+    height: 300px;
 }
 
 .containerMainTop{
