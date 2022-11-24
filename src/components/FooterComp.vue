@@ -114,6 +114,7 @@ ul{
 
 h4{
     color: white;
+    padding-bottom: 10px;
 }
 
 .h4Shop{
@@ -124,7 +125,6 @@ h4{
 li{
     list-style-type: none;
     color: grey;
-    //padding-top: 5px;
 }
 
 .containerList{
