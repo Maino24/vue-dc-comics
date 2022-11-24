@@ -1,10 +1,11 @@
 <template>
     <div>
         <div class="jumbo">
-
+            
         </div>
         <div class="containerMainTop">
             <div class="container-cards">
+                <button class="btnSeries"><h3>CURRENT SERIES</h3></button>
                 <div class="card">
                     <CopertineCard
                         v-for="(elem, index) in card"
@@ -138,6 +139,16 @@ import CopertineCard from './CopertineCard.vue'
     background-image: url(../assets/img/jumbotron.jpg);
     background-size: cover;
     height: 300px;
+}
+
+.btnSeries{
+    background-color: rgba(2, 130, 249, 1);
+    color: white;
+    padding: 10px 35px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    border: 0;
 }
 
 .containerMainTop{
