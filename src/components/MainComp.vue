@@ -143,14 +143,14 @@ import CopertineCard from './CopertineCard.vue'
 }
 
 .container-cards{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
 .card {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 10px; 
     justify-content: space-around;
 }
 
@@ -160,11 +160,11 @@ h3{
 
 .containerMainBottom{
     width: 100%;
-    
     display: flex;
     background-color: rgba(2, 130, 249, 1);
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
 }
 
 

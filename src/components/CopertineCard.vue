@@ -27,16 +27,17 @@
 .card{
     
     width: calc(100% / 6);
-    padding: 0;
-    margin: 0;
+    
+
     img{
-        height: 150px;
-        
+        height: 200px;
+        width: 100%;
     }
 
     h6{
         color: white;
         text-align: center;
+        width: 100%;
     }
 }
 
