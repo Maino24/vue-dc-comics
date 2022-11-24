@@ -11,7 +11,9 @@
                         :key="index"
                         :dettaglioCard="elem"/>
                 </div>
+                <button class="btnMore">LOAD MORE</button>
             </div>
+            
         </div>
         <div class="containerMainBottom">
             <nav>
@@ -141,6 +143,7 @@ import CopertineCard from './CopertineCard.vue'
 .containerMainTop{
     width: 100%;
     background-color: rgba(28, 28, 28, 1);
+    padding-bottom: 20px;
 }
 
 .container-cards{
@@ -159,6 +162,15 @@ h3{
     color: white;
 }
 
+.btnMore{
+    background-color: rgba(2, 130, 249, 1);
+    color: white;
+    padding: 10px 35px;
+    display: flex;
+    margin: auto;
+    border: 0;
+}
+
 .containerMainBottom{
     width: 100%;
     display: flex;
@@ -167,7 +179,6 @@ h3{
     align-items: center;
     padding: 40px 0;
 }
-
 
 ul{
     width: 70%;
