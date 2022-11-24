@@ -15,7 +15,7 @@
                             <li>News</li>
                         </ul>
                         <ul>
-                            <li><h4>SHOP</h4></li>
+                            <li><h4 class="h4Shop">SHOP</h4></li>
                             <li>Shop DC</li>
                             <li>Shop DC collectibles</li>
                         </ul>
@@ -49,8 +49,8 @@
                 </div>
                 
                 
-                <div>
-                    <!--<img src="../assets/img/dc-logo-bg.png" alt="">-->
+                <div class="img-footer">
+                    
                 </div>
             </div>
         </div>
@@ -92,11 +92,12 @@
 
 .sfondoFooter{
     width: 100%;
-    height: 350px;
+    //height: 350px;
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    //position: relative;
+    //z-index: 1;
     
 }
 
@@ -108,29 +109,37 @@
 }
 
 ul{
-    margin-right: 20px;
+    padding-right: 20px;
+    
 }
 
 h4{
     color: white;
-    margin-top: 40px;
+}
+
+.h4Shop{
+    color: white;
+    margin-top: 20px;
 }
 
 li{
     list-style-type: none;
     color: grey;
-    padding-top: 5px;
+    //padding-top: 5px;
 }
 
 .containerList{
     display: flex;
-    
+    padding: 60px 0;
 }
 
-img{
-    height: 80%;
-    width: 100%;
-    padding-left: 100px;
+.img-footer{
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    
 }
 
 .sfondoBottom{
@@ -182,6 +191,7 @@ button{
     padding-left: 20px;
     margin-left: 0;
 }
+
 
 
 </style>
