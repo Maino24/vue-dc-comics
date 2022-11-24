@@ -92,7 +92,6 @@
 
 .sfondoFooter{
     width: 100%;
-    //height: 350px;
     background-image: url(../assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +143,7 @@ li{
 
 .sfondoBottom{
     background-color: rgba(48, 48, 48, 1);
-    height: 100px;
+    padding: 20px 0;
 }
 
 .containerSfondoBottom{
